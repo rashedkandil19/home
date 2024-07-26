@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   background: #260461;
   color: white;
-  width: 103%;
+  width: 100%;
 
   /* Ensure the background is black */
 }
@@ -161,24 +161,49 @@ body {
 /* End Of About */
 /* about me */
 .aboutMe {
-  margin-bottom: 100px
+  margin-bottom: 100px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
 }
 
-.aboutMe h2 {
+.aboutMe p {
+  font-size: 25px;
+  width: 94%;
+  line-height: 39px;
+  margin: 0 22px;
+}
+
+.aboutMe ul {
+  text-align: start;
+  width: 94%;
+  margin: 0 22px;
+}
+
+.aboutMe ul p {
+  text-align: center;
+  font-size: 28px;
+  color: #ffeb3b;
+  animation: float 3s ease-in-out infinite;
+}
+
+.AboutHEADING {
   text-align: center;
   margin-bottom: 30px;
   animation: float 3s ease-in-out infinite;
 }
 
-.aboutMe p {
-  margin: 0px 20px;
-  text-align: center;
+.aboutMe li {
   font-size: 18px;
-  margin-bottom: 31px;
   color: #ffffff;
+  list-style: none;
+  margin-bottom: 15px;
+  line-height: 26px;
 }
 
-.aboutMe p span {
+.aboutMe li span {
   font-size: 25px;
   color: #ffeb3b;
 
@@ -248,8 +273,9 @@ body {
   display: inline-block;
   width: 250px;
   box-shadow: 0px 0px 10px 8px #673ab7;
-  cursor: pointer;
   transition: 0.3s;
+  height: 332px;
+  cursor: pointer;
 }
 
 .projectContainer .project:hover {}
@@ -257,6 +283,7 @@ body {
 .projectContainer .project p {
   font-size: 20px;
   margin-top: 10px;
+  margin-bottom: 48px;
 }
 
 
@@ -265,6 +292,21 @@ body {
   border-radius: 10px
 }
 
+.projects a {
+  padding: 15px;
+  background-color: #624497;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 17px;
+  transition: 0.3s
+}
+
+.projects a:hover {
+  background-color: #7e6882;
+
+  box-shadow: 0px 0px 10px 8px #afadb3;
+}
 
 /* end of project */
 
@@ -331,7 +373,7 @@ footer {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 60px;
-  background-color: #2d1d4b;
+  background-color: #000000;
   margin-top: 57px;
 }
 
