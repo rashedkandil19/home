@@ -24,6 +24,16 @@
   });
 
 
+  function smoothBTN() {
+
+    let ad = document.getElementById("btn");
+    let button = ad.getAttribute("data-section");
+    let buttonScroll = document.getElementById(button);
+    buttonScroll.scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
   (function () {
     emailjs.init("q-Ku4cSd8vglp_L5i");
   })();
@@ -34,22 +44,19 @@
     let message = document.getElementById('message').value;
 
     let templateParams = {
-      to_name: 'Rashed Kandil',
+      to_name: 'Rashed Talaat ',
       from_name: name,
       from_email: email,
       message: message
     };
-    // end the message to the email
+    // send the message to the email
     emailjs.send("service_cmaf79l", "template_s3zghec", templateParams)
       .then(function (response) {
         console.log("SUCCESS!", response.status, response.text)
-        alert('your message has been snet successfully!');
+        alert('your message has been sent successfully!');
         document.getElementById("contact-form").reset();
       }, function (error) {
         console.log('FAILED...', error);
         alert('Failed to send your message. please try again.');
       });
   });
-
-
-  // service_cmaf79l
