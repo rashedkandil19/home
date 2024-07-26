@@ -38,8 +38,9 @@
   <div id="home" class="aboutContainer">
     <div class="leftSection">
       <h2>HELLO WORLD! I'm <span style="color: #03a9f4"> Rashed</span></h2>
-      <p>I am a Front-End Web Develop</p>
-      <button>About Me <i class="fa-regular fa-circle-down"></i></button>
+      <p>I am a Front-End Web Developer</p>
+      <button onclick="smoothBTN()" id="btn" data-section="about">About Me <i
+          class="fa-regular fa-circle-down"></i></button>
       <ul>
         <li>
           <a href="https://www.facebook.com/profile.php?id=100083914215535&mibextid=ZbWKwL" target="_blank"><i
@@ -63,8 +64,8 @@
 
   <!-- About section -->
 
+  <h2 class="AboutHEADING"> <i class="fa-solid fa-address-card"> </i> About Me</h2>
   <div id="about" class="aboutMe">
-    <h2> <i class="fa-solid fa-address-card"> </i> About Me</h2>
     <p>
       <span> Welcome to my portfolio! </span> I am a passionate and dedicated front-end developer with a strong eye for
       design and a
@@ -73,24 +74,29 @@
       interfaces.
     </p>
 
-    <p>What I Do:</p>
-
-    <p><span>1- Responsive Web Design</span>: I create responsive and adaptive web designs that ensure a seamless user
-      experience
-      across all devices.</p>
-    <p><span>2- Interactive UI/UX</span>: I design and develop interactive user interfaces that enhance user engagement
-      and
-      satisfaction.</p>
-    <p><span>3- Performance Optimization</span>: I focus on optimizing website performance, ensuring fast load times and
-      smooth
-      interactions.</p>
-    <p><span>4- Mobile Application Development:</span>I develop mobile-friendly web applications and ensure they perform
-      optimally on various mobile devices. My expertise includes building Progressive Web Apps (PWAs) that offer a
-      native-like experience.</p>
-    <p><span>5- WordPress Development:</span>I specialize in custom WordPress theme and plugin development. From
-      building custom themes to extending functionalities with plugins, I create tailored WordPress solutions that meet
-      specific business needs and enhance website capabilities.</p>
-
+    <ul>
+      <p>What I Do:</p>
+      <li><span>1- Responsive Web Design</span>: I create responsive and adaptive web designs that ensure a seamless
+        user
+        experience
+        across all devices.</li>
+      <li><span>2- Interactive UI/UX</span>: I design and develop interactive user interfaces that enhance user
+        engagement
+        and
+        satisfaction.</li>
+      <li><span>3- Performance Optimization</span>: I focus on optimizing website performance, ensuring fast load times
+        and
+        smooth
+        interactions.</li>
+      <li><span>4- Mobile Application Development:</span>I develop mobile-friendly web applications and ensure they
+        perform
+        optimally on various mobile devices. My expertise includes building Progressive Web Apps (PWAs) that offer a
+        native-like experience.</li>
+      <li><span>5- WordPress Development:</span>I specialize in custom WordPress theme and plugin development. From
+        building custom themes to extending functionalities with plugins, I create tailored WordPress solutions that
+        meet
+        specific business needs and enhance website capabilities.</li>
+    </ul>
   </div>
 
   <!-- About section -->
@@ -101,7 +107,7 @@
     <div class="skills">
       <div class="skill">
         <img src="Skills Pics/html.png" alt="" srcset="" width="25px" height="25px">
-        <p>HTLM 5</p>
+        <p>HTML 5</p>
       </div>
       <div class="skill">
         <img src="Skills Pics/css-3.png" alt="" srcset="" width="25px" height="25px">
@@ -130,7 +136,7 @@
         <img src="Skills Pics/github.png" alt="" srcset="" width="25px" height="25px" style="background-color: white;
         border-radius: 50%;
         padding: 4px;">
-        <p>Git Hub</p>
+        <p>GitHub</p>
       </div>
       <div class="skill">
         <img src="Skills Pics/wordpress.png" alt="" srcset="" width="25px" height="25px">
@@ -153,17 +159,20 @@
         class="fa-solid fa-square-poll-horizontal"></i> Projects</h2>
 
     <div class="projects">
-      <div class="project">
+      <div id="ProjectCalc" class="project">
         <img src="Projects/simple calculator in javascript.png" width="138px" height="200px" alt="" srcset="">
         <p>calculator</p>
+        <a href="https://github.com/rashedkandil19/Calculator.git" target="_blank">View Source</a>
       </div>
-      <div class="project">
+      <div id="ProjectFaceBook" class="project">
         <img src="Projects/Facebook.png" width="223px" height="200px" alt="" srcset="">
         <p>Facebook Login Page</p>
+        <a href="https://github.com/rashedkandil19/Old-Facebook-login-page.git" target="_blank">View Source</a>
       </div>
-      <div class="project">
+      <div id="ProjectTODO" class="project">
         <img src="Projects/to-dolist.png" width="138px" height="210px" alt="" srcset="">
         <p>To-Do List</p>
+        <a href="https://github.com/rashedkandil19/Todolist.git" target="_blank">View Source</a>
       </div>
     </div>
   </div>
@@ -177,7 +186,7 @@
       <label for="email">Email:</label>
       <input type="email" name="email" id="email" required>
       <label for="message">Message:</label>
-      <textarea name="message" id="message" required> </textarea>
+      <textarea name="message" id="message" required></textarea>
       <button type="submit">Send</button>
     </form>
   </div>
@@ -186,7 +195,7 @@
   <footer>
     <img style="cursor: pointer" src="rkicon.png" width="100px" height="30px" alt="" srcset="" />
 
-    <p>All Rights Reserved For <span> Rashed Kandil</span></p>
+    <p> &copy; All Rights Reserved For <span style="color: #03a9f4; cursor: pointer;"> Rashed Kandil</span></p>
   </footer>
   <!-- Footer -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
