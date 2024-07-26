@@ -4,6 +4,19 @@
         width: 100%;
     }
 
+    .aboutMe p {
+        font-size: 25px;
+        width: 94%;
+        line-height: 39px;
+        margin: 0 22px;
+        text-align: center;
+    }
+    .aboutMe ul {
+        width: 94%;
+        margin: 0 22px;
+        text-align: center;
+    }
+
     .aboutContainer {
         margin-top: 20%;
         display: flex;
@@ -120,6 +133,18 @@
         justify-content: space-evenly;
         flex-direction: column-reverse;
     }
+    .aboutMe p {
+        font-size: 25px;
+        width: 94%;
+        line-height: 39px;
+        margin: 0 22px;
+        text-align: center;
+    }
+    .aboutMe ul {
+        width: 94%;
+        margin: 0 22px;
+        text-align: center;
+    }
 
     form {
         background: rgb(64 34 117);
@@ -233,7 +258,13 @@
         flex-direction: column-reverse;
         align-items: center;
     }
-
+    .aboutMe p {
+        font-size: 25px;
+        width: 90%;
+        line-height: 39px;
+        margin: 0 22px;
+        text-align: center;
+    }
     .aboutContainer .leftSection {
         text-align: center;
         font-size: 21px;
