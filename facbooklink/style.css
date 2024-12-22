@@ -1,0 +1,106 @@
+:root {
+  --maincolor: #3c599b;
+  --backgroundcolor: #eef1f6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: var(--backgroundcolor);
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 350px;
+  background-color: var(--maincolor);
+  color: white;
+}
+.logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 9px;
+}
+header form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+form label {
+  font-size: 12px;
+}
+div a {
+  color: #91b0d9;
+  font-size: 13px;
+}
+.submit {
+  display: grid;
+  height: 53px;
+  align-content: space-around;
+}
+.btn-submt {
+  width: 50px;
+}
+.content {
+  display: flex;
+}
+.details {
+  margin-top: 50px;
+  margin-left: 70px;
+  min-width: 650px;
+}
+.details h2 {
+  margin-bottom: 25px;
+}
+.details p {
+  margin-left: 70px;
+
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.details p span {
+  font-weight: lighter;
+  font-size: 13px;
+  color: #555555;
+}
+.signup {
+  min-width: 400px;
+  max-width: 400px;
+  margin-top: 15px;
+}
+.signup form p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.signup input {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 5px;
+  background-color: white;
+  padding: 7px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.third,
+.forth,
+.fifth {
+  width: 358px;
+}
+.signup form p,
+a:last-child {
+  font-size: 10px;
+}
+.signup form .Submt {
+  padding: 10px;
+  background-color: #659f51;
+  width: 145px;
+  color: white;
+  font-weight: bold;
+  box-shadow: inset 0px -10px 18px 2px #1a481f88;
+  border-radius: 7px;
+}

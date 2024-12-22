@@ -278,20 +278,19 @@ body {
   cursor: pointer;
 }
 
-.projectContainer .project:hover {}
-
 .projectContainer .project p {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 48px;
 }
 
-
-
 .projectContainer .project img {
-  border-radius: 10px
+  border-radius: 10px;
+  transition: 0.3s;
 }
-
+.projectContainer .project  :hover{
+  margin-top: 10px;
+}
 .projects a {
   padding: 15px;
   background-color: #624497;
