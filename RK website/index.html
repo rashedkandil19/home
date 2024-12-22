@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description"
+    content="A portfolio showcasing the projects and skills of a front-end developer specializing in responsive web design, interactive UI/UX, performance optimization, mobile application development, and WordPress.">
+  <meta name="keywords"
+    content="front-end developer, web development, responsive design, UI/UX, performance optimization, mobile applications, WordPress, HTML, CSS, JavaScript, React, Vue.js, GitHub Pages, Netlify">
+
+  <link rel="shortcut icon" href="Rk-Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Rashed Kandil</title>
+</head>
+
+<body>
+  <div class="background"></div>
+  <!-- start heading -->
+  <div class="header">
+    <img style="cursor: pointer" src="rkicon.png" width="100px" height="30px" alt="" srcset="" />
+    <ul class="hide">
+      <li class="active" data-section="home">Home</li>
+      <li data-section="about">About</li>
+      <li data-section="skills">Skills</li>
+      <li data-section="projects">Project</li>
+      <li data-section="contact">Contact Me</li>
+    </ul>
+    <i class="fa-solid fa-bars-staggered"></i>
+    <span style="font-size: 18px;" class="hideArrow"><i class="fa-solid fa-caret-up"></i></span>
+  </div>
+  <!-- end heading -->
+
+  <!--start Home section -->
+  <div id="home" class="aboutContainer">
+    <div class="leftSection">
+      <h2>HELLO WORLD! I'm <span style="color: #03a9f4"> Rashed</span></h2>
+      <p>I am a Front-End Web Developer</p>
+      <button onclick="smoothBTN()" id="btn" data-section="about">About Me <i
+          class="fa-regular fa-circle-down"></i></button>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100083914215535&mibextid=ZbWKwL" target="_blank"><i
+              class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/rashedkandil19" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://wa.me/qr/T2OKFMOKBXWMP1" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/rashed_kandil?igsh=dzQzNXQ1dnQzM2I0" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+    <img height="36%" width="30%" src="me.jpg" alt="" srcset="" />
+  </div>
+  <!--end Home section -->
+
+  <!-- About section -->
+
+  <h2 class="AboutHEADING"> <i class="fa-solid fa-address-card"> </i> About Me</h2>
+  <div id="about" class="aboutMe">
+    <p>
+      <span> Welcome to my portfolio! </span> I am a passionate and dedicated front-end developer with a strong eye for
+      design and a
+      knack for bringing creative concepts to life. With a robust skill set in HTML, CSS, JavaScript, and modern
+      frameworks like React and node.js, I specialize in crafting visually stunning and highly functional user
+      interfaces.
+    </p>
+
+    <ul>
+      <p>What I Do:</p>
+      <li><span>1- Responsive Web Design</span>: I create responsive and adaptive web designs that ensure a seamless
+        user
+        experience
+        across all devices.</li>
+      <li><span>2- Interactive UI/UX</span>: I design and develop interactive user interfaces that enhance user
+        engagement
+        and
+        satisfaction.</li>
+      <li><span>3- Performance Optimization</span>: I focus on optimizing website performance, ensuring fast load times
+        and
+        smooth
+        interactions.</li>
+      <li><span>4- Mobile Application Development:</span>I develop mobile-friendly web applications and ensure they
+        perform
+        optimally on various mobile devices. My expertise includes building Progressive Web Apps (PWAs) that offer a
+        native-like experience.</li>
+      <li><span>5- WordPress Development:</span>I specialize in custom WordPress theme and plugin development. From
+        building custom themes to extending functionalities with plugins, I create tailored WordPress solutions that
+        meet
+        specific business needs and enhance website capabilities.</li>
+    </ul>
+  </div>
+
+  <!-- About section -->
+  <!-- Skills Section -->
+  <div id="skills" class="containerSkills">
+    <h2 style="margin-bottom: 25px  ; animation: float 3s ease-in-out infinite;"><i class="fa-solid fa-laptop-code"></i>
+      Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <img src="Skills Pics/html.png" alt="" srcset="" width="25px" height="25px">
+        <p>HTML 5</p>
+      </div>
+      <div class="skill">
+        <img src="Skills Pics/css-3.png" alt="" srcset="" width="25px" height="25px">
+        <p>CSS3</p>
+      </div>
+      <div class="skill">
+        <img src="Skills Pics/js.png" alt="" srcset="" width="25px" height="25px">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <img src="Skills Pics/library.png" alt="" srcset="" width="25px" height="25px">
+        <p>ReactJS</p>
+      </div>
+      <div class="skill">
+        <i style="font-size: 35px;
+        color: red;
+        background-color: white;
+        border-radius: 31px;" class="fa-brands fa-angular"></i>
+        <p>Angular</p>
+      </div>
+      <!-- <div class="skill">
+        <img src="Skills Pics/python.png" alt="" srcset="" width="25px" height="25px">
+        <p>Python</p>
+      </div> -->
+      <div class="skill">
+        <img src="Skills Pics/github.png" alt="" srcset="" width="25px" height="25px" style="background-color: white;
+        border-radius: 50%;
+        padding: 4px;">
+        <p>GitHub</p>
+      </div>
+      <div class="skill">
+        <img src="Skills Pics/wordpress.png" alt="" srcset="" width="25px" height="25px">
+        <p>Wordpress</p>
+      </div>
+      <div class="skill">
+        <img src="Skills Pics/android.png" alt="" srcset="" width="25px" height="25px">
+        <p>Android</p>
+      </div>
+      <div class="skill">
+        <img src="Skills Pics/nodejs.png" alt="" srcset="" width="25px" height="25px">
+        <p>NodeJS</p>
+      </div>
+    </div>
+  </div>
+  <!-- Skills Section -->
+  <!-- Projects section-->
+  <div id="projects" class="projectContainer">
+    <h2 style="margin-bottom: 25px  ; animation: float 3s ease-in-out infinite;"><i
+        class="fa-solid fa-square-poll-horizontal"></i> Projects</h2>
+
+    <div class="projects">
+      <div id="ProjectCalc" class="project">
+        <img src="Projects/simple calculator in javascript.jpg" width="138px" height="200px" alt="" srcset="">
+        <p>calculator</p>
+        <a href="CalculatorLink/index.html" target="_blank">View Page</a>
+      </div>
+      <div id="ProjectFaceBook" class="project">
+        <img src="Projects/Facebook.png" width="223px" height="200px" alt="" srcset="">
+        <p>Facebook Login Page</p>
+        <a href="facbooklink/index.html" target="_blank">View Page</a>
+      </div>
+      <div id="ProjectTODO" class="project">
+        <img src="Projects/to-dolist.png" width="138px" height="210px" alt="" srcset="">
+        <p>To-Do List</p>
+        <a href="todolink/index.html" target="_blank">View Page</a>
+      </div>
+      <div id="LandingPage" class="project">
+        <img src="Projects/landingPage.png" width="223px" height="200px" alt="" srcset="">
+        <p>landing Page</p>
+        <a href="landingPage/index.html" target="_blank">View Page</a>
+      </div>
+    </div>
+  </div>
+  <!-- Projects section-->
+  <!-- contact me -->
+  <div id="contact" class="contactMe">
+    <h2><i class="fa-solid fa-inbox"></i> Contact Me</h2>
+    <form class="contactForm  " id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <!-- contact me -->
+  <!-- Footer -->
+  <footer>
+    <img style="cursor: pointer" src="rkicon.png" width="100px" height="30px" alt="" srcset="" />
+
+    <p> &copy; All Rights Reserved For <span style="color: #03a9f4; cursor: pointer;"> Rashed Kandil</span></p>
+  </footer>
+  <!-- Footer -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
