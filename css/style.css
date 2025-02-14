@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #260461;
+  background: #000000;
   color: white;
   width: 100%;
 
@@ -25,7 +25,7 @@ body {
   flex-wrap: nowrap;
   padding: 3%;
   align-items: center;
-  background-color: #20064e8f;
+  background: #2f2f2f8f;
 }
 
 .header .container {
@@ -53,7 +53,7 @@ body {
 
 
 .active {
-  color: #03a9f4;
+  color: #FFC107;
   padding-left: 21px;
 }
 
@@ -89,7 +89,7 @@ body {
 .aboutContainer img {
   animation: float 3s ease-in-out infinite;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px 8px #673ab7;
+  box-shadow: 0px 0px 10px 8px #616161;
 }
 
 @keyframes float {
@@ -123,7 +123,7 @@ body {
   padding: 8px;
   border-radius: 20px;
   color: white;
-  background-color: #03a9f4;
+  background: #545454;
   width: 147px;
   font-size: 15px;
   cursor: pointer;
@@ -168,18 +168,33 @@ body {
   align-items: center;
   gap: 45px;
 }
-
+.whatIdo{
+  background: transparent !important;
+}
 .aboutMe p {
   font-size: 25px;
-  width: 94%;
   line-height: 39px;
   margin: 0 22px;
+  background: #202124;
+  color: #ffffff;
+  padding: 25px;
+  width: 83%;
+  border-radius: 19px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .aboutMe ul {
   text-align: start;
-  width: 94%;
-  margin: 0 22px;
+  width: 90%;
+  margin: auto;
+  display: flex
+;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .aboutMe ul p {
@@ -201,12 +216,24 @@ body {
   list-style: none;
   margin-bottom: 15px;
   line-height: 26px;
-}
+  width: 330px;
+  background: #6c6c6c;
+  padding: 40px;
+  border-radius: 18px;
+  transition: all 0.5s ease;
 
+}
+.aboutMe li:hover{
+  padding: 50px;
+  transition: all 0.5s ease;
+  box-shadow: 0px 8px 19px 3px #4d4d4d;
+}
 .aboutMe li span {
   font-size: 25px;
   color: #ffeb3b;
-
+  display: block;
+  text-align: center;
+  padding: 0 0 15px 0px;
 }
 
 /* about me */
@@ -229,7 +256,7 @@ body {
 
 .skills .skill {
   width: 80px;
-  background-color: transparent;
+  background-color: #000000;
   color: white;
   border-radius: 7px;
   padding: 7px;
@@ -237,13 +264,13 @@ body {
   font-size: 13px;
   transition: 0.3s;
   font-weight: bold;
-  box-shadow: 0px 0px 10px 8px #673ab7;
   cursor: pointer;
+  border: 1px solid #9E9E9E;
 }
 
 .skills .skill:hover {
   background-color: #000000;
-  box-shadow: 0px 0px 10px 8px #afadb3;
+  box-shadow: 0px 3px 7px 9px #393939;
 }
 
 /* end of Skills */
@@ -267,17 +294,19 @@ body {
 }
 
 .projectContainer .project {
-  background-color: #381871;
+  background-color: #000000;
   padding: 18px;
   border-radius: 10px;
   display: inline-block;
   width: 250px;
-  box-shadow: 0px 0px 10px 8px #673ab7;
+  box-shadow: 0px 0px 10px 8px #303030;
   transition: 0.3s;
   height: 332px;
   cursor: pointer;
 }
-
+.projectContainer .project:hover{
+  background: #232323;
+}
 .projectContainer .project p {
   font-size: 20px;
   margin-top: 10px;
@@ -293,7 +322,7 @@ body {
 }
 .projects a {
   padding: 15px;
-  background-color: #624497;
+  background-color: #595959;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -302,7 +331,7 @@ body {
 }
 
 .projects a:hover {
-  background-color: #7e6882;
+  background-color: #5a5a5a;
 
   box-shadow: 0px 0px 10px 8px #afadb3;
 }
@@ -317,10 +346,10 @@ body {
 }
 
 form {
-  background: rgb(64 34 117);
+  background: rgb(48 47 47);
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 8px #673ab7;
+  box-shadow: 0px 3px 14px 8px #3a3a3a;
   width: 80%;
   margin: auto;
   margin-top: 47px;
@@ -339,7 +368,7 @@ form textarea {
   margin: 5px 0 10px;
   border: 0px solid #ccc;
   border-radius: 10px;
-  background-color: #0000009c;
+  background-color: #ffffff73;
   color: white;
   font-size: 18px;
 }
@@ -350,7 +379,7 @@ form textarea {
 }
 
 form button {
-  background: #007BFF;
+  background: #9E9E9E;
   color: #fff;
   border: none;
   padding: 10px;
@@ -372,7 +401,7 @@ footer {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 60px;
-  background-color: #000000;
+  background-color: #212121;
   margin-top: 57px;
 }
 
